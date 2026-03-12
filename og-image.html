@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Arif Ali OG Image</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #001524;
+      --bg-soft: #0b2030;
+      --ink: #f8f1e6;
+      --muted: #c3b89f;
+      --line: rgba(248, 241, 230, 0.14);
+      --brand: #4c9df2;
+      --brand-strong: #2f76bd;
+      --accent: #d7b07a;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { margin: 0; }
+    body {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #0a1420;
+      font-family: Manrope, "Segoe UI", sans-serif;
+      color: var(--ink);
+    }
+
+    .frame {
+      width: 1200px;
+      height: 630px;
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(520px 280px at 12% 10%, rgba(76, 157, 242, 0.22), transparent 72%),
+        radial-gradient(460px 260px at 88% 18%, rgba(215, 176, 122, 0.14), transparent 70%),
+        linear-gradient(180deg, var(--bg-soft), var(--bg));
+      border: 1px solid rgba(248, 241, 230, 0.08);
+    }
+
+    .grid {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+      background-size: 56px 56px;
+      mask-image: linear-gradient(180deg, rgba(0,0,0,0.45), rgba(0,0,0,0));
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+      height: 100%;
+      padding: 56px 64px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .mark {
+      width: 74px;
+      height: 74px;
+      display: grid;
+      place-items: center;
+      border-radius: 18px;
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.03);
+      color: var(--ink);
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+    }
+
+    .tag {
+      padding: 10px 16px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255,255,255,0.04);
+      color: var(--muted);
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+    }
+
+    .headline {
+      max-width: 820px;
+      margin-top: 28px;
+    }
+
+    h1 {
+      margin: 0 0 16px;
+      font-family: Fraunces, Georgia, serif;
+      font-size: 74px;
+      line-height: 0.98;
+      letter-spacing: -0.04em;
+      font-weight: 600;
+    }
+
+    .accent {
+      background: linear-gradient(135deg, var(--brand), var(--accent));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    p {
+      margin: 0;
+      max-width: 760px;
+      color: var(--muted);
+      font-size: 28px;
+      line-height: 1.45;
+      font-weight: 500;
+    }
+
+    .footer {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .meta {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .pill {
+      padding: 10px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.04);
+      color: var(--ink);
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .site {
+      color: var(--muted);
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+    }
+  </style>
+</head>
+<body>
+  <main class="frame">
+    <div class="grid"></div>
+    <div class="content">
+      <div class="topbar">
+        <div class="mark">AΛ</div>
+        <div class="tag">Software Engineer Portfolio</div>
+      </div>
+
+      <section class="headline">
+        
+        <h1><span class="accent">Arif Ali</span></h1>
+        <p>Applications, Web Development, and AI/ML.</p>
+      </section>
+
+      <div class="footer">
+      
+        <div class="site">arifali.me</div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
