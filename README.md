@@ -12,7 +12,7 @@ This project is a multi-page portfolio website with:
 - a custom social preview image
 - a small local Node.js server for static serving
 
-The portfolio is positioned around software engineering, web development, automation, and applied AI/ML work.
+The portfolio is positioned around full-stack product engineering, secure backend systems, automation, and applied AI.
 
 ## Pages
 
@@ -43,15 +43,16 @@ The portfolio is positioned around software engineering, web development, automa
 
 ### Projects Page
 
-Includes the full project archive, currently covering:
+Includes the full public project archive, currently covering:
 
-- Social Platform Prototype
-- Portfolio Website
-- LSTM Stock Forecasting
-- Text Extraction and Sentiment Analysis
-- Language Model Training with nanoGPT
-- Facial Recognition in Video
-- ATS Resume Analysis and Interview Prep
+- AI-First CRM Copilot
+- Software Distribution Platform
+- OTP Authentication Service
+- OnePass Password Manager
+- Offline Restaurant POS
+- Ride Booking Platform
+- Interactive Interior Portfolio
+- Developer Portfolio
 
 ## Project Structure
 
@@ -95,24 +96,9 @@ Then open locally:
 http://127.0.0.1:3000
 ```
 
-## Resume Files
+## Resume
 
-Two resume versions are maintained:
-
-- `resume-software-engineer.md`
-- `resume-freelance.md`
-
-PDFs are generated into `assets/`:
-
-- `assets/resume-software-engineer.pdf`
-- `assets/resume-freelance.pdf`
-- `assets/resume.pdf` (copy of the software-engineer version used by the portfolio button)
-
-To regenerate resume PDFs:
-
-```powershell
-python generate_resumes.py
-```
+The portfolio's download button uses `assets/resume.pdf`, the current application-ready full-stack resume. Older Markdown resume sources and the ReportLab generator are retained only as historical source material and should not overwrite the current PDF without review.
 
 ## Branding and Assets
 
@@ -126,5 +112,3 @@ python generate_resumes.py
 **MD ARIF ALI**  
 Software Engineer  
 Email: `dev.arifali@gmail.com`
-
-
