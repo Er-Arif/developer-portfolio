@@ -112,3 +112,7 @@ The portfolio's download button uses `assets/resume.pdf`, the current applicatio
 **MD ARIF ALI**  
 Software Engineer  
 Email: `dev.arifali@gmail.com`
+
+## Credentials
+
+The certification section links to verified Coursera credentials and copies of Infosys Springboard course certificates in `assets/certificates/`. AWS Cloud Solutions Architect is labelled as a Coursera Professional Certificate. The résumé download includes selected relevant certificates. Duplicate certificates and participation-only documents are not listed as technical qualifications.
