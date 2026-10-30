@@ -1,68 +1,60 @@
 # MD ARIF ALI
 
-Freelance Web Developer and Software Engineer  
-Chandigarh, India  
+**Freelance Backend / Full-Stack Engineer | Applied AI**  
+India | Remote-friendly  
 Email: dev.arifali@gmail.com  
 LinkedIn: linkedin.com/in/arifali2904  
 GitHub: github.com/Er-Arif  
-Portfolio: arifali.me  
+Portfolio: arifali.me
 
 ## Professional Summary
 
-Freelance-ready developer with hands-on experience building responsive websites, full-stack web applications, automation tools, and AI-assisted workflows. Comfortable across frontend implementation, backend integration, database-connected features, and practical AI use cases. Focused on clean structure, usable interfaces, and delivering solutions that solve clear problems for clients and end users.
+Freelance-ready backend and full-stack engineer building secure web applications, APIs, business software, automation, and applied-AI workflows. Comfortable taking projects from data model and backend design through responsive interfaces, authentication, testing, Docker-based development, and deployment preparation.
 
 ## Services / Capabilities
 
-- Responsive website development
 - Full-stack web application development
-- Backend integration and API-based workflows
-- Database-connected application features
-- Python automation and utility scripting
-- AI-assisted workflows using OpenAI API and local LLM tools
+- Backend APIs and database-connected systems
+- Authentication, authorization, and secure workflows
+- Python automation and operational tooling
+- Applied AI features using LLM APIs and LangGraph
+- Existing-product improvements, debugging, and integration work
 
 ## Technical Skills
 
-- **Frontend:** HTML, CSS, JavaScript, React, Bootstrap
-- **Backend:** Node.js, Express.js, Django, Flask, PHP
-- **Databases:** MySQL, PostgreSQL, NoSQL
-- **Python and AI/ML:** Python, NLP, LSTM, Computer Vision, PyTorch, NumPy, scikit-learn, Matplotlib
-- **Platforms and APIs:** REST APIs, OpenAI API, Ollama, Llama 3
+- **Languages:** Python, TypeScript, JavaScript, SQL
+- **Frontend:** React, Next.js, Tailwind CSS
+- **Backend:** FastAPI, Node.js, Express, REST APIs
+- **Databases:** PostgreSQL, Redis, MySQL, SQLite
+- **Applied AI:** LangGraph, Groq, LLM APIs, structured outputs, tool orchestration
+- **Engineering:** Docker, GitHub Actions, testing, authentication, payments, background jobs
 
 ## Selected Work
 
-### ATS Resume Analysis and Interview Prep
-- Developed an AI-assisted tool for analyzing resumes, generating ATS-style scoring feedback, and preparing users for interviews.
-- Integrated OpenAI API and Ollama Llama 3 to deliver practical AI-driven outputs and user guidance.
+### ClinicFlow
+Built an Android-first clinic operations platform with scheduling, appointments, payments, receipts, follow-ups, reporting, RBAC, audit trails, idempotency, and production-hardening workflows.
 
-### Social Platform Prototype
-- Built a full-stack social application with posting flows, feed design, backend logic, and database integration.
-- Used React, Node.js, Express.js, and MySQL.
+### Software Distribution & Licensing Platform
+Built software sales, licensing, secure update distribution, payments, customer/admin operations, background jobs, QA, and deployment documentation.
 
-### Portfolio Website
-- Designed and built a responsive portfolio website with strong visual presentation, mobile support, and clean front-end implementation.
+### AI-First CRM Copilot
+Built a FastAPI/React CRM workflow using LangGraph tools, structured LLM output, retries/fallbacks, persistence, and validated AI-driven updates.
 
-### Text Extraction and Sentiment Analysis
-- Created an NLP workflow for extracting useful information from documents and analyzing sentiment through Python-based processing.
-
-### Custom Website and Frontend Builds
-- Built responsive interfaces using HTML, CSS, JavaScript, Bootstrap, and React for portfolio-style and application-oriented layouts.
-- Focused on structure, visual clarity, and front-end implementation that adapts well across desktop and mobile.
+### OTP Authentication Service
+Built reusable multi-app OTP authentication with hashed tokens, email/SMS provider abstractions, audit logging, health checks, tests, worker processes, and CI.
 
 ## Education
 
 **Chandigarh University**  
-Bachelor of Engineering (B.E.), Computer Science | 2020 - 2024
+Undergraduate studies in Computer Science & Engineering | 2020-2024
 
 ## Certifications
 
-- Angular - Infosys Springboard
 - TypeScript Essentials - Infosys Springboard
-- Natural Language Processing - Internshala Trainings
-- HTML, CSS, and JavaScript for Web Developers - Coursera
 - Machine Learning - Coursera
+- Natural Language Processing - Internshala Trainings
 - Introduction to Computer Vision - Coursera
 
 ## Engagement Notes
 
-- Available for website development, web application builds, backend integration, automation scripts, and AI-assisted feature implementation
-- Suitable for portfolio sites, business websites, prototypes, student projects, custom tools, and data-processing workflows
+Available for backend/full-stack builds, business applications, API integrations, automation, applied-AI features, and product debugging or hardening work.
