@@ -1,19 +1,19 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Projects | Arif Ali</title>
-  <meta name="description" content="Production-oriented full-stack, backend, security, offline-first, and applied AI projects built by Arif Ali." />
+  <meta name="description" content="Production-oriented backend, full-stack, security, offline-first, and applied AI projects built by Arif Ali." />
   <meta name="author" content="Arif Ali" />
   <meta property="og:title" content="Projects | Arif Ali" />
-  <meta property="og:description" content="Production-oriented full-stack, backend, security, offline-first, and applied AI projects built by Arif Ali." />
+  <meta property="og:description" content="Production-oriented backend, full-stack, security, offline-first, and applied AI projects built by Arif Ali." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://arifali.me/projects.html" />
   <meta property="og:image" content="https://arifali.me/og-image.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Projects | Arif Ali" />
-  <meta name="twitter:description" content="Production-oriented full-stack, backend, security, offline-first, and applied AI projects built by Arif Ali." />
+  <meta name="twitter:description" content="Production-oriented backend, full-stack, security, offline-first, and applied AI projects built by Arif Ali." />
   <meta name="twitter:image" content="https://arifali.me/og-image.png" />
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23001524'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' font-size='24' font-family='Arial' font-weight='700' fill='%23f8f1e6'%3EA%CE%9B%3C/text%3E%3C/svg%3E" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +28,7 @@
         <span class="brand-mark" aria-hidden="true">AΛ</span>
         <span class="brand-text">
           <strong>Arif Ali</strong>
-          <small>Full-Stack Engineer</small>
+          <small>Backend / Full-Stack · Applied AI</small>
         </span>
       </a>
       <button id="menuToggle" class="menu-toggle" type="button" aria-expanded="false" aria-controls="primaryMenu">Menu</button>
@@ -47,8 +47,8 @@
       <div class="container">
         <div class="page-intro reveal">
           <p class="eyebrow">Project Archive</p>
-          <h1 class="h1">Production-oriented work across full-stack engineering, backend systems, and applied AI.</h1>
-          <p class="sub">A broader view of the systems, experiments, and applications I have been building. This page includes both featured work and additional projects that reflect my technical range.</p>
+          <h1 class="h1">Production-oriented work across backend engineering, full-stack systems, and applied AI.</h1>
+          <p class="sub">A broader view of the systems and applications I have built, including product workflows, authentication, payments, reliability, offline-first software, and AI orchestration.</p>
           <div class="cta">
             <a class="btn" href="index.html#projects">Back to Home</a>
           </div>
@@ -60,140 +60,105 @@
       <div class="container">
         <div class="section-head reveal">
           <h2 class="h2">All Projects</h2>
-          <p class="muted">Public, documented projects demonstrating full-stack architecture, backend development, security, offline-first software, and applied AI.</p>
+          <p class="muted">Public, documented projects demonstrating backend architecture, full-stack delivery, security, reliability, offline-first software, and applied AI.</p>
         </div>
 
         <div class="grid">
           <article class="card project reveal">
-            <div class="project-visual visual-nlp">
-              <span>LangGraph-powered CRM workflows</span>
-            </div>
+            <div class="project-visual visual-social"><span>Clinic operations, payments, and release hardening</span></div>
             <div class="project-top">
-              <h3>AI-First CRM Copilot</h3>
-              <p class="muted">A natural-language HCP interaction system with validated AI output, five LangGraph tools, persistence, and audit-friendly responses.</p>
-              <p class="project-proof"><strong>Highlights:</strong> 5 LangGraph tools · structured validation · persisted interaction logs</p>
-              <div class="chips">
-                <span>React</span><span>FastAPI</span><span>LangGraph</span><span>PostgreSQL</span>
-              </div>
+              <h3>ClinicFlow</h3>
+              <p class="muted">An Android-first clinic operations platform covering patients, scheduling, appointments, visits, payments, receipts, follow-ups, reminders, reporting, and administration.</p>
+              <p class="project-proof"><strong>Highlights:</strong> RBAC · audit trails · idempotency · PostgreSQL concurrency controls · CI · staging/UAT hardening</p>
+              <div class="chips"><span>React Native</span><span>TypeScript</span><span>FastAPI</span><span>PostgreSQL</span><span>Docker</span></div>
             </div>
-            <div class="project-actions">
-              <a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/ai-crm-copilot" target="_blank" rel="noopener noreferrer">View Code</a>
-            </div>
+            <div class="project-actions"><a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/clinicflow" target="_blank" rel="noopener noreferrer">View Code</a></div>
           </article>
 
           <article class="card project reveal">
-            <div class="project-visual visual-stock">
-              <span>Licensing, payments, and secure delivery</span>
-            </div>
+            <div class="project-visual visual-stock"><span>Licensing, payments, and secure delivery</span></div>
             <div class="project-top">
               <h3>Software Distribution Platform</h3>
-              <p class="muted">A production-oriented platform for software sales, licensing, signed updates, payments, device activation, and administration.</p>
-              <p class="project-proof"><strong>Highlights:</strong> signed manifests · verified webhooks · 13 automated tests</p>
-              <div class="chips">
-                <span>Next.js</span><span>FastAPI</span><span>PostgreSQL</span><span>Redis</span>
-              </div>
+              <p class="muted">A production-oriented platform for software sales, licensing, signed updates, payments, device activation, customer operations, and administration.</p>
+              <p class="project-proof"><strong>Highlights:</strong> signed manifests · verified payment webhooks · background jobs · browser/API QA</p>
+              <div class="chips"><span>Next.js</span><span>FastAPI</span><span>PostgreSQL</span><span>Redis</span><span>Celery</span></div>
             </div>
-            <div class="project-actions">
-              <a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/software-distribution-platform" target="_blank" rel="noopener noreferrer">View Code</a>
-            </div>
+            <div class="project-actions"><a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/software-distribution-platform" target="_blank" rel="noopener noreferrer">View Code</a></div>
           </article>
 
           <article class="card project reveal">
-            <div class="project-visual visual-social">
-              <span>Reusable authentication infrastructure</span>
+            <div class="project-visual visual-nlp"><span>LangGraph-powered CRM workflows</span></div>
+            <div class="project-top">
+              <h3>AI-First CRM Copilot</h3>
+              <p class="muted">A natural-language HCP interaction system with validated AI output, five LangGraph tools, persistence, retries, and graceful fallbacks.</p>
+              <p class="project-proof"><strong>Highlights:</strong> 5 LangGraph tools · structured validation · persisted state · retry/fallback handling</p>
+              <div class="chips"><span>React</span><span>FastAPI</span><span>LangGraph</span><span>Groq</span><span>PostgreSQL</span></div>
             </div>
+            <div class="project-actions"><a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/ai-crm-copilot" target="_blank" rel="noopener noreferrer">View Code</a></div>
+          </article>
+
+          <article class="card project reveal">
+            <div class="project-visual visual-social"><span>Reusable authentication infrastructure</span></div>
             <div class="project-top">
               <h3>OTP Authentication Service</h3>
-              <p class="muted">A reusable multi-application OTP service with hashed refresh tokens, delivery adapters, validation, audit logging, tests, and CI.</p>
-              <p class="project-proof"><strong>Highlights:</strong> token rotation · audit logs · automated CI checks</p>
-              <div class="chips">
-                <span>Node.js</span><span>Express</span><span>Prisma</span><span>PostgreSQL</span>
-              </div>
+              <p class="muted">A reusable multi-application OTP service with hashed refresh tokens, delivery adapters, validation, audit logging, metrics, tests, and CI.</p>
+              <p class="project-proof"><strong>Highlights:</strong> token security · provider abstraction · audit logs · health checks · automated CI</p>
+              <div class="chips"><span>Node.js</span><span>Express</span><span>Prisma</span><span>PostgreSQL</span><span>Docker</span></div>
             </div>
-            <div class="project-actions">
-              <a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/otp-auth-service" target="_blank" rel="noopener noreferrer">View Code</a>
-            </div>
+            <div class="project-actions"><a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/otp-auth-service" target="_blank" rel="noopener noreferrer">View Code</a></div>
           </article>
 
           <article class="card project reveal">
-            <div class="project-visual visual-nlp">
-              <span>Local-first encrypted vault</span>
-            </div>
+            <div class="project-visual visual-nlp"><span>Local-first encrypted vault</span></div>
             <div class="project-top">
               <h3>OnePass Password Manager</h3>
               <p class="muted">A client-encrypted password vault and browser-extension workflow built around local-first storage and Web Crypto.</p>
-              <p class="project-proof"><strong>Highlights:</strong> client-side encryption · local-first vault · Manifest V3</p>
-              <div class="chips">
-                <span>Next.js</span><span>TypeScript</span><span>Web Crypto</span><span>Manifest V3</span>
-              </div>
+              <p class="project-proof"><strong>Highlights:</strong> client-side encryption · local-first vault · Manifest V3 extension</p>
+              <div class="chips"><span>Next.js</span><span>TypeScript</span><span>Web Crypto</span><span>Manifest V3</span></div>
             </div>
-            <div class="project-actions">
-              <a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/onepass-password-manager" target="_blank" rel="noopener noreferrer">View Code</a>
-            </div>
+            <div class="project-actions"><a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/onepass-password-manager" target="_blank" rel="noopener noreferrer">View Code</a></div>
           </article>
 
           <article class="card project reveal">
-            <div class="project-visual visual-stock">
-              <span>Windows-first offline business software</span>
-            </div>
+            <div class="project-visual visual-stock"><span>Windows-first offline business software</span></div>
             <div class="project-top">
               <h3>Offline Restaurant POS</h3>
               <p class="muted">An offline desktop POS with role-based access, licensing, receipts, printing, backup and restore, and Windows packaging.</p>
               <p class="project-proof"><strong>Highlights:</strong> offline operation · role permissions · receipt printing · backups</p>
-              <div class="chips">
-                <span>Python</span><span>PySide6</span><span>SQLite</span><span>SQLAlchemy</span>
-              </div>
+              <div class="chips"><span>Python</span><span>PySide6</span><span>SQLite</span><span>SQLAlchemy</span></div>
             </div>
-            <div class="project-actions">
-              <a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/offline-restaurant-pos" target="_blank" rel="noopener noreferrer">View Code</a>
-            </div>
+            <div class="project-actions"><a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/offline-restaurant-pos" target="_blank" rel="noopener noreferrer">View Code</a></div>
           </article>
 
           <article class="card project reveal">
-            <div class="project-visual visual-social">
-              <span>Real-time dispatch and operations</span>
-            </div>
+            <div class="project-visual visual-social"><span>Real-time dispatch and operations</span></div>
             <div class="project-top">
               <h3>Ride Booking Platform</h3>
               <p class="muted">A hyperlocal customer, driver, and admin platform covering fares, dispatch, ride operations, and real-time communication.</p>
               <p class="project-proof"><strong>Highlights:</strong> multi-role apps · real-time dispatch · operational admin flows</p>
-              <div class="chips">
-                <span>TypeScript</span><span>Node.js</span><span>Next.js</span><span>Flutter</span>
-              </div>
+              <div class="chips"><span>TypeScript</span><span>Node.js</span><span>Next.js</span><span>Flutter</span></div>
             </div>
-            <div class="project-actions">
-              <a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/ride-booking-platform" target="_blank" rel="noopener noreferrer">View Code</a>
-            </div>
+            <div class="project-actions"><a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/ride-booking-platform" target="_blank" rel="noopener noreferrer">View Code</a></div>
           </article>
 
           <article class="card project reveal">
-            <div class="project-visual visual-photo">
-              <span>WebGL-enhanced design experience</span>
-            </div>
+            <div class="project-visual visual-photo"><span>WebGL-enhanced design experience</span></div>
             <div class="project-top">
               <h3>Interactive Interior Portfolio</h3>
               <p class="muted">An immersive design portfolio with room storytelling, material controls, responsive layouts, and WebGL presentation.</p>
               <p class="project-proof"><strong>Highlights:</strong> WebGL scenes · live material controls · responsive storytelling</p>
-              <div class="chips">
-                <span>JavaScript</span><span>Three.js</span><span>WebGL</span><span>Vite</span>
-              </div>
+              <div class="chips"><span>JavaScript</span><span>Three.js</span><span>WebGL</span><span>Vite</span></div>
             </div>
-            <div class="project-actions">
-              <a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/interactive-interior-portfolio" target="_blank" rel="noopener noreferrer">View Code</a>
-            </div>
+            <div class="project-actions"><a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/interactive-interior-portfolio" target="_blank" rel="noopener noreferrer">View Code</a></div>
           </article>
 
           <article class="card project reveal">
-            <div class="project-visual visual-photo">
-              <span>Responsive engineering portfolio</span>
-            </div>
+            <div class="project-visual visual-photo"><span>Responsive engineering portfolio</span></div>
             <div class="project-top">
               <h3>Developer Portfolio</h3>
-              <p class="muted">The responsive portfolio site presenting selected projects, engineering skills, experience, and application materials.</p>
+              <p class="muted">The responsive portfolio site presenting selected projects, engineering skills, credentials, and application materials.</p>
               <p class="project-proof"><strong>Highlights:</strong> accessible navigation · responsive layout · recruiter-focused content</p>
-              <div class="chips">
-                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive Design</span>
-              </div>
+              <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive Design</span></div>
             </div>
             <div class="project-actions">
               <a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/developer-portfolio" target="_blank" rel="noopener noreferrer">View Code</a>
@@ -206,11 +171,7 @@
   </main>
 
   <footer class="footer">
-    <div class="container footer-inner">
-      <div class="footer-bottom">
-        <p class="footer-status"><span id="year"></span> Designed and developed by Arif Ali</p>
-      </div>
-    </div>
+    <div class="container footer-inner"><div class="footer-bottom"><p class="footer-status"><span id="year"></span> Designed and developed by Arif Ali</p></div></div>
   </footer>
 
   <script src="script.js"></script>
