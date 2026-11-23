@@ -35,6 +35,7 @@
       <nav class="menu" id="primaryMenu" aria-label="Primary">
         <a href="index.html#expertise">Expertise</a>
         <a href="index.html#skills">Skills</a>
+        <a href="index.html#resumes">Resumes</a>
         <a href="index.html#about">About</a>
         <a href="index.html#contact" class="btn btn-sm">Contact</a>
       </nav>
@@ -60,10 +61,11 @@
       <div class="container">
         <div class="section-head reveal">
           <h2 class="h2">All Projects</h2>
-          <p class="muted">Public, documented projects demonstrating backend architecture, full-stack delivery, security, reliability, offline-first software, and applied AI.</p>
+          <p class="muted">A selected archive of software products, architecture work, educational AI/ML experiments and utility projects. Project status is stated where relevant.</p>
         </div>
 
         <div class="grid">
+          <h3 class="project-group-heading" id="software-products">Software products and systems</h3>
           <article class="card project reveal">
             <div class="project-visual visual-social"><span>Clinic operations, payments, and release hardening</span></div>
             <div class="project-top">
@@ -164,6 +166,110 @@
               <a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/developer-portfolio" target="_blank" rel="noopener noreferrer">View Code</a>
               <a class="btn btn-sm" href="https://arifali.me/" target="_blank" rel="noopener noreferrer">Live Site</a>
             </div>
+          </article>
+
+          <article class="card project reveal">
+            <div class="project-visual visual-social"><span>Balances, settlements, and concurrency</span></div>
+            <div class="project-top">
+              <h3>Friend Ledger</h3>
+              <p class="project-status">Independent app</p>
+              <p class="muted">A shared-expense mobile application with group balances and settlement workflows, backed by FastAPI and PostgreSQL.</p>
+              <p class="project-proof"><strong>Highlights:</strong> integer minor-unit currency · database row locking · concurrent settlement safeguards</p>
+              <div class="chips"><span>React Native</span><span>FastAPI</span><span>PostgreSQL</span></div>
+            </div>
+            <div class="project-actions"><a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/friend-ledger" target="_blank" rel="noopener noreferrer">View Code</a></div>
+          </article>
+
+          <article class="card project reveal">
+            <div class="project-visual visual-nlp"><span>Hospital-wide architecture and workflows</span></div>
+            <div class="project-top">
+              <h3>Hospital Information System (HIS)</h3>
+              <p class="project-status">Product architecture and implementation roadmap</p>
+              <p class="muted">Designed a local-first hospital management platform spanning clinical operations, patient records, pharmacy, diagnostics, finance and administration.</p>
+              <p class="project-proof"><strong>Highlights:</strong> modular monolith · RBAC/ABAC · audit trails · transaction controls · ABDM-readiness</p>
+              <div class="chips"><span>React</span><span>FastAPI</span><span>PostgreSQL</span><span>Docker</span></div>
+            </div>
+            <div class="project-actions"><a class="btn btn-sm btn-ghost" href="his-architecture.html">Explore Architecture</a></div>
+          </article>
+
+          <h3 class="project-group-heading" id="machine-learning">Machine learning and computer vision</h3>
+          <article class="card project reveal">
+            <div class="project-visual visual-nlp"><span>Transformer training and local text sampling</span></div>
+            <div class="project-top">
+              <h3>NanoGPT Training Lab</h3>
+              <p class="project-status">Open-source adaptation</p>
+              <p class="muted">Adapted the nanoGPT training workflow for custom-text tokenization, training configuration, checkpoint loading and local generation experiments.</p>
+              <p class="project-proof"><strong>Highlights:</strong> PyTorch · GPT-2 tokenizer · preprocessing · CLI sampling</p>
+              <div class="chips"><span>Python</span><span>PyTorch</span><span>Flask</span></div>
+            </div>
+            <div class="project-actions"><a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/nanogpt-training-lab" target="_blank" rel="noopener noreferrer">View Code</a></div>
+          </article>
+          <article class="card project reveal">
+            <div class="project-visual visual-stock"><span>Historical LSTM experiment and updated time-series example</span></div>
+            <div class="project-top">
+              <h3>LSTM Stock Forecasting</h3>
+              <p class="project-status">Original 2023 notebook + revised training example</p>
+              <p class="muted">Recovered a Keras LSTM modeling notebook and published an improved next-close pipeline that separates training and holdout periods.</p>
+              <p class="project-proof"><strong>Highlights:</strong> lookback windows · train-only normalization · last-close baseline</p>
+              <div class="chips"><span>TensorFlow</span><span>Keras</span><span>pandas</span></div>
+            </div>
+            <div class="project-actions"><a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/lstm-stock-forecasting" target="_blank" rel="noopener noreferrer">View Code</a></div>
+          </article>
+          <article class="card project reveal">
+            <div class="project-visual visual-nlp"><span>CNN and classical machine-learning models</span></div>
+            <div class="project-top">
+              <h3>CIFAR-10 Classification Experiments</h3>
+              <p class="project-status">Machine learning lab</p>
+              <p class="muted">Small-scale CNN, SVM, Random Forest and RBM-based classification experiments with configurable samples and preprocessing tests.</p>
+              <p class="project-proof"><strong>Highlights:</strong> TensorFlow/Keras · scikit-learn · experiment reproducibility</p>
+              <div class="chips"><span>Python</span><span>CNN</span><span>scikit-learn</span></div>
+            </div>
+            <div class="project-actions"><a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/machine-learning-experiments" target="_blank" rel="noopener noreferrer">View Code</a></div>
+          </article>
+          <article class="card project reveal">
+            <div class="project-visual visual-photo"><span>Classical image segmentation</span></div>
+            <div class="project-top">
+              <h3>OpenCV Watershed Segmentation</h3>
+              <p class="project-status">Computer vision lab</p>
+              <p class="muted">Marker-based watershed segmentation using Otsu thresholding, morphological operations and distance transforms.</p>
+              <p class="project-proof"><strong>Highlights:</strong> reproducible CLI · synthetic-image tests · OpenCV</p>
+              <div class="chips"><span>Python</span><span>OpenCV</span><span>NumPy</span></div>
+            </div>
+            <div class="project-actions"><a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/opencv-watershed-segmentation" target="_blank" rel="noopener noreferrer">View Code</a></div>
+          </article>
+          <article class="card project reveal">
+            <div class="project-visual visual-photo"><span>ORB keypoints and panorama stitching</span></div>
+            <div class="project-top">
+              <h3>OpenCV Feature Matching</h3>
+              <p class="project-status">Computer vision lab</p>
+              <p class="muted">ORB feature detection and Hamming-distance matching, with image stitcher and visualization tools.</p>
+              <p class="project-proof"><strong>Highlights:</strong> ORB · BFMatcher · OpenCV Stitcher API</p>
+              <div class="chips"><span>Python</span><span>OpenCV</span><span>NumPy</span></div>
+            </div>
+            <div class="project-actions"><a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/opencv-feature-matching" target="_blank" rel="noopener noreferrer">View Code</a></div>
+          </article>
+          <h3 class="project-group-heading" id="python-utilities">Additional Python experiments</h3>
+          <article class="card project reveal">
+            <div class="project-visual visual-social"><span>Probabilistic primality testing</span></div>
+            <div class="project-top">
+              <h3>Miller–Rabin Prime Generator</h3>
+              <p class="project-status">Educational algorithm lab</p>
+              <p class="muted">A testable Python implementation of probable-prime generation with configurable bit length and witness rounds.</p>
+              <p class="project-proof"><strong>Highlights:</strong> modular arithmetic · secrets module · unit tests</p>
+              <div class="chips"><span>Python</span><span>Algorithms</span></div>
+            </div>
+            <div class="project-actions"><a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/miller-rabin-prime-generator" target="_blank" rel="noopener noreferrer">View Code</a></div>
+          </article>
+          <article class="card project reveal">
+            <div class="project-visual visual-social"><span>Python desktop UI and background downloads</span></div>
+            <div class="project-top">
+              <h3>Tkinter Video Downloader</h3>
+              <p class="project-status">Desktop learning project</p>
+              <p class="muted">A Tkinter application with input validation, worker-thread execution and yt-dlp integration for authorized media downloads.</p>
+              <p class="project-proof"><strong>Highlights:</strong> Tkinter · thread-safe UI feedback · testing</p>
+              <div class="chips"><span>Python</span><span>Tkinter</span><span>yt-dlp</span></div>
+            </div>
+            <div class="project-actions"><a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/tkinter-video-downloader" target="_blank" rel="noopener noreferrer">View Code</a></div>
           </article>
         </div>
       </div>

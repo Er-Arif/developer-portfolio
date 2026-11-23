@@ -1,119 +1,62 @@
-# MD ARIF ALI Portfolio
+# MD ARIF ALI | Developer Portfolio
 
-Personal portfolio website for **MD ARIF ALI**, built to present backend/full-stack engineering work, selected projects, technical skills, credentials, and resume downloads.
-
-## Overview
-
-This project is a multi-page portfolio website with:
-
-- a focused landing page
-- a dedicated projects archive page
-- downloadable resume PDFs
-- a custom social preview image
-- a small local Node.js server for static serving
-
-The portfolio is positioned around backend and full-stack product engineering, secure systems, reliability, automation, and applied AI.
+Source for [arifali.me](https://arifali.me), a static, multi-page portfolio featuring independent backend, full-stack, mobile and applied AI projects.
 
 ## Pages
 
-- `index.html` - main portfolio page
-- `projects.html` - full projects archive
-- `og-image.html` - social preview layout source
-- `og-image-minimal.html` - alternate social preview layout
+- `index.html`: introduction, flagship projects, recent AI/ML work, skills, certifications, recruiter resume downloads and contact.
+- `projects.html`: project archive organized into software systems, machine learning/computer vision and smaller Python experiments.
+- `his-architecture.html`: an architecture case study for a planned hospital-wide, offline-first Hospital Information System (no private hospital name or live deployment claim).
 
-## Tech Stack
+## Featured engineering work
 
-- HTML
-- CSS
-- JavaScript
-- Node.js (`server.js` for local serving)
-- Python (`generate_resumes.py` for PDF resume generation)
-- ReportLab (used locally for resume PDF generation)
+- [ClinicFlow](https://github.com/Er-Arif/clinicflow)
+- [Software Distribution Platform](https://github.com/Er-Arif/software-distribution-platform)
+- [AI-First CRM](https://github.com/Er-Arif/ai-crm-copilot)
+- [OTP Authentication Service](https://github.com/Er-Arif/otp-auth-service)
+- [Friend Ledger](https://github.com/Er-Arif/friend-ledger)
+- [NanoGPT Training Lab](https://github.com/Er-Arif/nanogpt-training-lab)
+- [LSTM Stock Forecasting](https://github.com/Er-Arif/lstm-stock-forecasting)
+- [Machine Learning Experiments](https://github.com/Er-Arif/machine-learning-experiments)
+- [OpenCV Watershed Segmentation](https://github.com/Er-Arif/opencv-watershed-segmentation) and [Feature Matching](https://github.com/Er-Arif/opencv-feature-matching)
 
-## Main Sections
+Other projects and experiments appear on `projects.html`. Experimental source code and architecture are distinguished from production deployments. The nanoGPT project includes attribution to the original open-source project.
 
-### Home Page
+## Recruiter PDFs
 
-- Hero introduction
-- Featured projects
-- Expertise
-- Skills
-- Certifications
-- About
-- Contact
+All PDFs are stored in `assets/` and linked from the site's Resumes section:
 
-### Projects Page
+- `assets/resume.pdf` – updated two-page Master CV
+- `assets/resume-backend.pdf` – one-page Backend Software Engineer resume
+- `assets/resume-fullstack.pdf` – one-page Full-Stack Software Developer resume
+- `assets/resume-applied-ai.pdf` – one-page Applied AI / LLM Developer resume
 
-Includes the public project archive, currently covering:
+PDF hyperlinks to renamed GitHub repositories have been updated. Files are downloadable directly from the published site. Their original editable Word versions are maintained separately.
 
-- ClinicFlow
-- Software Distribution Platform
-- AI-First CRM Copilot
-- OTP Authentication Service
-- OnePass Password Manager
-- Offline Restaurant POS
-- Ride Booking Platform
-- Interactive Interior Portfolio
-- Developer Portfolio
+## Technology
 
-## Project Structure
+HTML5, CSS3 and vanilla JavaScript; no frontend build step. Optional `server.js` runs a local Node server. Social metadata uses `og-image.png`; the custom domain is configured with `CNAME`.
 
-```text
-.
-|-- assets/
-|   |-- arif.PNG
-|   |-- resume.pdf
-|   |-- resume-software-engineer.pdf
-|   `-- resume-freelance.pdf
-|-- index.html
-|-- projects.html
-|-- style.css
-|-- script.js
-|-- server.js
-|-- generate_resumes.py
-|-- resume-software-engineer.md
-|-- resume-freelance.md
-|-- og-image.html
-|-- og-image-minimal.html
-`-- og-image.png
-```
+### Local preview
 
-## Local Usage
-
-### Option 1: Open as static files
-
-You can open `index.html` directly in the browser.
-
-### Option 2: Run the local server for preview
-
-```powershell
+```bash
 node server.js
 ```
 
-Then open:
+Visit `http://127.0.0.1:3000/`.
 
-```text
-http://127.0.0.1:3000
-```
+## Deployment and maintenance
 
-## Resume
+GitHub Pages serves the `main` branch using the site's existing custom domain. After changing HTML, CSS, JavaScript or PDFs, verify the homepage, project archive, case-study page and all four PDF links in the live deployment.
 
-The portfolio's download button uses `assets/resume.pdf`, the current application-ready master resume. Role-specific resume variants can be maintained separately for backend and applied-AI applications.
+### Accuracy notes
 
-## Branding and Assets
-
-- Brand mark: `AΛ`
-- Brand name: `Arif Ali`
-- Positioning: `Backend / Full-Stack Engineer · Applied AI`
-- Social preview image: `og-image.png`
-- Primary downloadable resume: `assets/resume.pdf`
+- No Bachelor's degree or graduate status is claimed in the website copy.
+- Availability includes worldwide remote applications and possible international relocation, subject to work authorization.
+- Historical ML notebooks and architectural plans are not represented as independently verified financial forecasting results or live deployed systems.
 
 ## Author
 
 **MD ARIF ALI**  
-Backend / Full-Stack Engineer · Applied AI  
-Email: `dev.arifali@gmail.com`
-
-## Credentials
-
-The certification section links to verified Coursera credentials and copies of Infosys Springboard course certificates in `assets/certificates/`. AWS Cloud Solutions Architect is labelled as a Coursera Professional Certificate. Duplicate certificates and participation-only documents are not listed as technical qualifications.
+Email: dev.arifali@gmail.com  
+GitHub: https://github.com/Er-Arif

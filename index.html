@@ -37,6 +37,7 @@
         <a href="#expertise">Expertise</a>
         <a href="#skills">Skills</a>
         <a href="#certifications">Certifications</a>
+        <a href="#resumes">Resumes</a>
         <a href="#about">About</a>
         <a href="#contact" class="btn btn-sm">Contact</a>
       </nav>
@@ -60,12 +61,13 @@
           <div class="availability" aria-label="Work availability">
             <span>Immediately available</span>
             <span>Remote: India &amp; worldwide</span>
-            <span>Open to relocation across India</span>
+            <span>Open to international relocation</span>
           </div>
 
           <div class="cta">
             <a class="btn" href="#projects">View Projects</a>
-            <a class="btn btn-ghost" href="assets/resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a>
+            <a class="btn btn-ghost" href="assets/resume.pdf" target="_blank" rel="noopener noreferrer">Download Master CV</a>
+            <a class="btn btn-ghost" href="#resumes">Role-Specific Resumes</a>
           </div>
 
           <div class="links">
@@ -86,7 +88,7 @@
       <div class="container">
         <div class="section-head reveal">
           <h2 class="h2">Projects</h2>
-          <p class="muted">Selected systems that demonstrate backend depth, full-stack delivery, applied AI, security, and production hardening.</p>
+          <p class="muted">Selected independent projects showing backend depth, full-stack implementation, applied AI, security and testing.</p>
         </div>
 
         <div class="grid">
@@ -96,6 +98,7 @@
             </div>
             <div class="project-top">
               <h3>ClinicFlow</h3>
+              <p class="project-status">Staging / UAT</p>
               <p class="muted">An Android-first clinic operations platform for patients, appointments, visits, payments, receipts, follow-ups, reminders, reporting, and administration.</p>
               <p class="project-proof"><strong>Engineering evidence:</strong> RBAC · audit trails · idempotency · PostgreSQL concurrency controls · CI · staging/UAT hardening</p>
               <div class="chips">
@@ -113,6 +116,7 @@
             </div>
             <div class="project-top">
               <h3>Software Distribution Platform</h3>
+              <p class="project-status">Independent prototype</p>
               <p class="muted">A production-oriented platform for software sales, licensing, signed updates, payments, device activation, customer operations, and administration.</p>
               <p class="project-proof"><strong>Engineering evidence:</strong> signed manifests · verified payment webhooks · background jobs · browser/API QA</p>
               <div class="chips">
@@ -130,6 +134,7 @@
             </div>
             <div class="project-top">
               <h3>AI-First CRM Copilot</h3>
+              <p class="project-status">Applied AI demo</p>
               <p class="muted">A natural-language HCP interaction system with validated AI output, five LangGraph tools, persistence, retries, and graceful fallbacks.</p>
               <p class="project-proof"><strong>Engineering evidence:</strong> 5 LangGraph tools · structured validation · persisted state · model retry/fallback handling</p>
               <div class="chips">
@@ -147,6 +152,7 @@
             </div>
             <div class="project-top">
               <h3>OTP Authentication Service</h3>
+              <p class="project-status">Independent backend prototype</p>
               <p class="muted">A reusable multi-application OTP service with hashed refresh tokens, provider abstractions, validation, audit logging, metrics, tests, and CI.</p>
               <p class="project-proof"><strong>Engineering evidence:</strong> token security · audit logs · health checks · worker process · automated CI</p>
               <div class="chips">
@@ -161,6 +167,69 @@
 
         <div class="section-actions reveal">
           <a class="btn btn-ghost" href="projects.html">View All Projects</a>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="recent-work" class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Recently documented work</p>
+          <h2 class="h2">More engineering and applied AI</h2>
+          <p class="muted">Additional experiments and applications, with source code and reproducibility notes.</p>
+        </div>
+        <div class="grid">
+          <article class="card project reveal">
+            <div class="project-visual visual-social"><span>Shared expenses and settlement integrity</span></div>
+            <div class="project-top">
+              <h3>Friend Ledger</h3>
+              <p class="project-status">Independent mobile application</p>
+              <p class="muted">Shared expenses, balances and settlements built with React Native, FastAPI and PostgreSQL.</p>
+              <p class="project-proof"><strong>Engineering focus:</strong> integer minor-unit amounts · row-level locking · concurrent updates</p>
+              <div class="chips"><span>React Native</span><span>FastAPI</span><span>PostgreSQL</span></div>
+            </div>
+            <div class="project-actions"><a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/friend-ledger" target="_blank" rel="noopener noreferrer">View Code</a></div>
+          </article>
+          <article class="card project reveal">
+            <div class="project-visual visual-nlp"><span>GPT-style model training and local sampling</span></div>
+            <div class="project-top">
+              <h3>NanoGPT Training Lab</h3>
+              <p class="project-status">Open-source adaptation</p>
+              <p class="muted">Adapted nanoGPT workflows for custom-text tokenization, checkpoint configuration and local generation.</p>
+              <p class="project-proof"><strong>Engineering focus:</strong> PyTorch · GPT-2 tokenizer · data preparation · sampling CLI</p>
+              <div class="chips"><span>PyTorch</span><span>Transformers</span><span>Python</span></div>
+            </div>
+            <div class="project-actions"><a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/nanogpt-training-lab" target="_blank" rel="noopener noreferrer">View Code</a></div>
+          </article>
+          <article class="card project reveal">
+            <div class="project-visual visual-stock"><span>Time-series modeling with a transparent baseline</span></div>
+            <div class="project-top">
+              <h3>LSTM Stock Forecasting</h3>
+              <p class="project-status">Recovered 2023 experiment + updated example</p>
+              <p class="muted">Original Keras notebook alongside a next-close forecasting pipeline using chronological splits.</p>
+              <p class="project-proof"><strong>Engineering focus:</strong> train-only scaling · lookback windows · naïve last-close baseline</p>
+              <div class="chips"><span>TensorFlow</span><span>Keras</span><span>scikit-learn</span></div>
+            </div>
+            <div class="project-actions"><a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/lstm-stock-forecasting" target="_blank" rel="noopener noreferrer">View Code</a></div>
+          </article>
+          <article class="card project reveal">
+            <div class="project-visual visual-photo"><span>Traditional computer vision, image processing</span></div>
+            <div class="project-top">
+              <h3>OpenCV Experiments</h3>
+              <p class="project-status">Computer vision learning projects</p>
+              <p class="muted">Watershed segmentation, ORB keypoint matching and panorama stitching with reusable Python CLIs.</p>
+              <p class="project-proof"><strong>Engineering focus:</strong> Otsu thresholding · morphology · feature matching</p>
+              <div class="chips"><span>Python</span><span>OpenCV</span><span>NumPy</span></div>
+            </div>
+            <div class="project-actions">
+              <a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/opencv-watershed-segmentation" target="_blank" rel="noopener noreferrer">Segmentation</a>
+              <a class="btn btn-sm btn-ghost" href="https://github.com/Er-Arif/opencv-feature-matching" target="_blank" rel="noopener noreferrer">Feature Matching</a>
+            </div>
+          </article>
+        </div>
+        <div class="section-actions reveal">
+          <a class="btn btn-ghost" href="projects.html#machine-learning">Explore All AI &amp; ML Projects</a>
         </div>
       </div>
     </section>
@@ -248,7 +317,7 @@
           <article class="card reveal">
             <h3>AI, Security &amp; Delivery</h3>
             <div class="chips">
-              <span>LangGraph</span><span>Groq</span><span>PyTorch</span><span>NLP</span><span>JWT</span><span>Web Crypto</span><span>GitHub Actions</span><span>Testing</span><span>Observability</span>
+              <span>LangGraph</span><span>Groq</span><span>PyTorch</span><span>TensorFlow/Keras</span><span>OpenCV</span><span>NLP</span><span>JWT</span><span>Web Crypto</span><span>GitHub Actions</span><span>Testing</span><span>Observability</span>
             </div>
           </article>
         </div>
@@ -307,6 +376,43 @@
       </div>
     </section>
 
+
+    <section id="resumes" class="section section-alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">For recruiters and collaborators</p>
+          <h2 class="h2">Resumes &amp; CV</h2>
+          <p class="muted">Choose a focused one-page resume or the complete two-page CV. All documents are available as PDF downloads.</p>
+        </div>
+        <div class="grid resume-grid">
+          <article class="card resume-card reveal">
+            <p class="resume-tag">Backend engineering</p>
+            <h3>Backend Software Engineer</h3>
+            <p class="muted">Python, FastAPI, PostgreSQL, API security, transactions and testing.</p>
+            <a class="btn btn-sm" href="assets/resume-backend.pdf" target="_blank" rel="noopener noreferrer" download>Download Backend Resume (PDF)</a>
+          </article>
+          <article class="card resume-card reveal">
+            <p class="resume-tag">Web &amp; mobile</p>
+            <h3>Full-Stack Software Developer</h3>
+            <p class="muted">React, Next.js, TypeScript, React Native, FastAPI and databases.</p>
+            <a class="btn btn-sm" href="assets/resume-fullstack.pdf" target="_blank" rel="noopener noreferrer" download>Download Full-Stack Resume (PDF)</a>
+          </article>
+          <article class="card resume-card reveal">
+            <p class="resume-tag">Applied AI</p>
+            <h3>Applied AI / LLM Developer</h3>
+            <p class="muted">LangGraph, PyTorch, TensorFlow/Keras, LLM tools and model experiments.</p>
+            <a class="btn btn-sm" href="assets/resume-applied-ai.pdf" target="_blank" rel="noopener noreferrer" download>Download AI Resume (PDF)</a>
+          </article>
+          <article class="card resume-card reveal">
+            <p class="resume-tag">Complete portfolio</p>
+            <h3>Master CV</h3>
+            <p class="muted">A fuller overview of independent products, ML experiments, healthcare architecture and certifications.</p>
+            <a class="btn btn-sm btn-ghost" href="assets/resume.pdf" target="_blank" rel="noopener noreferrer" download>Download Master CV (PDF)</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <section id="about" class="section">
       <div class="container">
         <div class="section-head reveal">
@@ -319,7 +425,7 @@
             I studied Computer Science and Engineering at Chandigarh University and learn by building complete systems.
             My work spans secure web and mobile applications, backend services, offline-first software, automation, and applied AI.
             I care about clear architecture, practical security, maintainable code, testing, and documentation that helps other engineers run and extend a project.
-            I am immediately available for full-time roles, including remote opportunities in India or worldwide and onsite roles anywhere in India.
+            I am immediately available for full-time roles, including remote opportunities in India or worldwide and on-site roles in India or internationally, subject to work authorization.
           </p>
         </div>
       </div>

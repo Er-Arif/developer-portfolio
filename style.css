@@ -601,3 +601,43 @@ a:hover{opacity:.9}
 .certification-details{margin-top:24px}
 .certification-details summary{cursor:pointer;font-weight:700}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* Portfolio content refresh: project grouping and recruiter documents */
+.section-alt{
+  background:linear-gradient(180deg, rgba(255,255,255,.012), rgba(0,0,0,.055));
+}
+.project-status{
+  font-size:12px;
+  font-weight:700;
+  color:var(--accent);
+  margin:8px 0 10px;
+  line-height:1.5;
+}
+.project-group-heading{
+  grid-column:1/-1;
+  font-family:Fraunces,Georgia,serif;
+  font-size:clamp(1.25rem,2.5vw,1.7rem);
+  line-height:1.2;
+  margin:28px 0 6px;
+  scroll-margin-top:105px;
+}
+.project-group-heading:first-child{margin-top:0}
+.resume-card{display:flex;flex-direction:column;gap:10px}
+.resume-card h3{margin:0}
+.resume-card p.muted{line-height:1.6;margin:0 0 8px}
+.resume-card .btn{margin-top:auto;align-self:flex-start}
+.resume-tag{
+  margin:0;
+  color:var(--accent);
+  text-transform:uppercase;
+  font-weight:800;
+  letter-spacing:.08em;
+  font-size:11px;
+}
+.case-study-note{margin-top:20px}
+.case-study-note h3{margin:0 0 8px}
+.case-study-note p{margin:0;line-height:1.7}
+@media(max-width:560px){
+  .resume-card .btn{width:100%;text-align:center}
+  .project-group-heading{scroll-margin-top:90px}
+}

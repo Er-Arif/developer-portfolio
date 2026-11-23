@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hospital Information System Architecture | Arif Ali</title>
+  <meta name="description" content="A hospital-wide, offline-first Hospital Information System architecture designed by Arif Ali, covering clinical operations, workflows, data integrity, auditability and deployment planning." />
+  <meta name="author" content="Arif Ali" />
+  <link rel="canonical" href="https://arifali.me/his-architecture.html" />
+  <meta property="og:title" content="Hospital Information System | Architecture Case Study" />
+  <meta property="og:description" content="A modular, offline-first hospital platform architecture spanning clinical and administrative departments." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://arifali.me/his-architecture.html" />
+  <meta property="og:image" content="https://arifali.me/og-image.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html#top" aria-label="Home"><span class="brand-mark" aria-hidden="true">AΛ</span><span class="brand-text"><strong>Arif Ali</strong><small>Backend / Full-Stack · Applied AI</small></span></a>
+      <button id="menuToggle" class="menu-toggle" type="button" aria-expanded="false" aria-controls="primaryMenu">Menu</button>
+      <nav class="menu" id="primaryMenu" aria-label="Primary">
+        <a href="projects.html">Projects</a>
+        <a href="index.html#resumes">Resumes</a>
+        <a href="index.html#contact" class="btn btn-sm">Contact</a>
+      </nav>
+    </div>
+    <div class="scroll-progress" aria-hidden="true"><span id="scrollBar"></span></div>
+  </header>
+  <main id="top">
+    <section class="hero page-hero">
+      <div class="container page-intro">
+        <p class="eyebrow">Product architecture case study</p>
+        <h1 class="h1">Hospital Information System (HIS)</h1>
+        <p class="sub">An offline-first healthcare management platform architecture covering patient care, hospital operations, billing, diagnostics and administration.</p>
+        <p class="project-status">Status: product requirements, architecture and implementation roadmap defined; full deployment not yet claimed</p>
+        <div class="cta"><a class="btn btn-ghost" href="projects.html#software-products">Back to Projects</a></div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="h2">Hospital-wide scope</h2>
+          <p class="muted">The design brings clinical and administrative departments into a consistent shared information system.</p>
+        </div>
+        <div class="grid">
+          <article class="card"><h3>Patients, OPD &amp; emergency</h3><p class="muted">Patient identity and duplicate resolution, registration, appointments, visit workflows, consultation billing and emergency intake.</p></article>
+          <article class="card"><h3>Inpatient care, nursing &amp; OT</h3><p class="muted">Admissions, transfers and discharges; beds and wards; nursing workflows; operating theatre and anaesthesia processes.</p></article>
+          <article class="card"><h3>Diagnostics, pharmacy &amp; inventory</h3><p class="muted">Laboratory and radiology workflows, medication and inventory management, procurement, receiving and stock controls.</p></article>
+          <article class="card"><h3>Finance &amp; hospital administration</h3><p class="muted">Receipts and corrections, supplier payments, finance/audits, employee administration, attendance, HR and payroll.</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head"><h2 class="h2">Technical architecture</h2></div>
+        <div class="grid">
+          <article class="card">
+            <h3>Local-first infrastructure</h3>
+            <p class="muted">A central on-premises server connected to browser clients over a hospital LAN, designed to support routine operation during internet outages.</p>
+            <div class="chips"><span>React</span><span>TypeScript</span><span>FastAPI</span><span>PostgreSQL</span><span>Nginx</span><span>Docker Compose</span></div>
+          </article>
+          <article class="card">
+            <h3>Modular domain design</h3>
+            <p class="muted">A modular-monolith backend with explicit domain boundaries, versioned REST APIs, migrations and coordinated clinical/administrative workflows.</p>
+            <div class="chips"><span>SQLAlchemy</span><span>Alembic</span><span>OpenAPI</span><span>Modular Monolith</span></div>
+          </article>
+          <article class="card">
+            <h3>Privacy, security and auditability</h3>
+            <p class="muted">Named-user accounts, server-side RBAC/ABAC, secure sessions, audit records, patient identity controls, maker-checker operations and health-data privacy requirements.</p>
+            <div class="chips"><span>RBAC/ABAC</span><span>Append-only Audit</span><span>Argon2id</span><span>CSRF Protection</span></div>
+          </article>
+          <article class="card">
+            <h3>Financial integrity and reliability</h3>
+            <p class="muted">Transactional receipts and refunds, controlled reversal/correction flows, idempotency, dependable printing, backup/recovery processes and ABDM integration readiness.</p>
+            <div class="chips"><span>Transactions</span><span>Idempotency</span><span>Backup/Restore</span><span>ABDM-readiness</span></div>
+          </article>
+        </div>
+        <div class="card case-study-note">
+          <h3>Implementation status</h3>
+          <p class="muted">This case study describes completed requirements and architectural planning for a full Hospital Information System. It does not claim that every module has been implemented, independently certified, or deployed in a live hospital.</p>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="section-head"><h2 class="h2">Engineering focus</h2><p class="muted">My contribution is in the system's product requirements, workflow design, data model and deployment architecture.</p></div>
+        <div class="grid">
+          <article class="card"><h3>Identity and continuity</h3><p class="muted">Stable patient identifiers, controlled duplicate resolution and merge processes, and consistent numbering across clinical and financial documents.</p></article>
+          <article class="card"><h3>Operational safeguards</h3><p class="muted">Authorization by role and context, auditable adjustments, resilience to retry/duplicate operations, and printable workflows for real hospital workstations.</p></article>
+        </div>
+        <div class="section-actions"><a class="btn" href="index.html#contact">Discuss the Architecture</a></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><div class="footer-bottom"><span class="muted footer-status">© <span id="year"></span> Designed and developed by Arif Ali</span></div></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
